@@ -33,10 +33,14 @@ CREATE TABLE ALBUM ( ID INT NOT NULL AUTO_INCREMENT , SINGER_ID INT NOT NULL , T
 Заполнить их данными:
 
 insert into singer (first_name, last_name, birth_date) values ('John', 'Mayer', '1988-10-16'); 
+
 insert into singer (first_name, last_name, birth_date) values ('Eric', 'Clapton', '1955-03-30'); 
+
 insert into singer (first_name, last_name, birth_date) values ('John', 'Butler', '1978-04-01');
 
 insert into album (singer_id, title, release_date) values (1, 'The Search For Everything', '2018-01-20');
+
 insert into album (singer_id, title, release_date) values (1, 'Battle Studies', '2010-11-17');
+
 insert into album (singer_id, title, release_date) values (2, 'From The Cradle ', '1996-09-13');
 
