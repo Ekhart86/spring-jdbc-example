@@ -12,7 +12,7 @@
 
 Пользователя user:
 
-CREATE USER 'user'@'localhost' IDENTIFIED BY 'user';
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 
 CREATE SCHEMA MUSICDB;
 
